@@ -7,7 +7,6 @@ import node from "@astrojs/node";
 // https://astro.build/config
 export default defineConfig({
   site: 'https://with.estyria.dev',
-  base: 'with.estyria.dev',
   integrations: [tailwind(), icon()],
   output: "server",
   adapter: node({
